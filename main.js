@@ -94,7 +94,6 @@ function my_mousemove(e){
     if (mouseEvemt == "mousedown"){
         ctx.beginPath();
         ctx.strokeStyle = color;
-        ctx.arc(current_position_of_x,current_position_of_y,40,0,2*Math.PI)
         ctx.lineWidth = width_of_line ;
 
         console.log("Last position of x and y coordinates = ");
